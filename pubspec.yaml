@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flame: ^1.18.0
+  flame_audio: ^2.10.2
 
 dev_dependencies:
   flutter_test:
@@ -21,3 +22,8 @@ flutter:
   assets:
     - assets/images/
     - assets/audio/
+
+  fonts:
+    - family: Game
+      fonts:
+        - asset: assets/fonts/Game.ttf
